@@ -1,5 +1,6 @@
 # dnslookup
 
+```
 Usage:
   -domain string
         Domain to lookup
@@ -9,5 +10,6 @@ Usage:
         Output file name (default "/dev/stdout")
   -parall int
         Maximum parallelism (default 1)
+```
 
 Example: `go run main.go -in ./ip.csv -out ./result.txt -parall 5 -domain "google.com"`
